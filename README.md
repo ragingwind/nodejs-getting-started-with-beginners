@@ -788,6 +788,26 @@ npm install
 
 ---
 
+[![center 120%](https://cloud.githubusercontent.com/assets/124117/21291656/4935567a-c52b-11e6-9687-f657d90827a6.png)](https://goo.gl/Bbxu6K)
+
+---
+
+#### [The semantic versioner for npm](https://docs.npmjs.com/misc/semver)
+
+- **X-Range**
+	- \* := >=0.0.0 (Any version satisfies)
+	- 1.x := >=1.0.0 <2.0.0 (Matching major version)
+	- 1.2.x := >=1.2.0 <1.3.0 (Matching major and minor versions)
+- **Tilde Range**: Allows patch-level changes if a minor version is specified on the comparator
+	- ~1.2.3 := >=1.2.3 <1.(2+1).0 := >=1.2.3 <1.3.0
+	- ~1.2 := >=1.2.0 <1.(2+1).0 := >=1.2.0 <1.3.0 (Same as 1.2.x)
+	- ~1 := >=1.0.0 <(1+1).0.0 := >=1.0.0 <2.0.0 (Same as 1.x)
+- **Caret Range**: Allows changes that do not modify the left-most non-zero digit in the versions
+	- ^1.2.3 := >=1.2.3 <2.0.0
+	- ^0.2.3 := >=0.2.3 <0.3.0
+	- ^0.0.3 := >=0.0.3 <0.0.4
+---
+
 #### Installing new packages as a dev/depedencies
 
 > Install a new dependency to the project for development and production
