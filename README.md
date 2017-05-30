@@ -25,7 +25,7 @@
 - Powerfull debugging tools for optimizing performance
 ---
 
-![](https://github.com/codebusking/resource/raw/master/images/v8/v8-logo.png)
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/V8_JavaScript_engine_logo_2.svg/4550px-V8_JavaScript_engine_logo_2.svg.png)
 
 ## V8
 
